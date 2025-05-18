@@ -229,14 +229,16 @@
         </div>
         <div class="contact-form">
           <form action="">
-            <input type="text" name="" id="" placeholder="First Name" />
-            <input type="text" name="" id="" placeholder="Last Name" /><br />
-            <input type="email" name="" id="" placeholder="Email adress" />
+            <input type="text" name="fname" id="" placeholder="First Name" required/>
+            <input type="text" name="mname" id="" placeholder="Last Name" required/><br />
+            <input type="email" name="email" id="" placeholder="Email adress" required/>
             <textarea
               id=""
               name=""
               rows="4"
+              minlength="10"
               placeholder="Write me something..."
+              required
             ></textarea>
             <br />
             <button class="btn">Get in touch</button>
