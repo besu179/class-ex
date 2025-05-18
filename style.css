@@ -419,6 +419,9 @@ footer ul li i:hover {
 .hamburger-menu {
   display: none;
 }
+.close-menu {
+  display: none;
+}
 
 /* Mobile Styles */
 @media (max-width: 768px) {
@@ -432,7 +435,7 @@ footer ul li i:hover {
     position: fixed;
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 30vw;
     height: 100%;
     background-color: #333;
     padding: 20px;
