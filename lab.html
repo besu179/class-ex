@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      document.write(
+        "Hello, World! This is a test of the document.write method."
+      );
+      console.log("This is a test of the console.log method.");
+
+      function x() {
+        alert("this is a simple alert");
+        document.write("the click added text");
+        console.log("message 2");
+      }
+      function add(x, y) {
+        return x + y;
+      }
+
+      const pi = 3.14;
+      let a = 5;
+      var name = "John Doe";
+
+      console.log("The value of pi is: " + pi);
+      console.log("the value of a is: " + a);
+      console.log("The name is: " + name);
+
+      let word1 = "hello";
+      let word2 = "world";
+
+      let greeting = word1 + " " + word2;
+
+      document.write("<br>" + "Greeting: " +greeting + "<br>");
+      document.write("The sum of 5 and 10 is: " + add(5, 10) + "<br>");
+      let uppercaseName = name.toUpperCase();
+      document.write("Uppercase name: " + uppercaseName + "<br>");
+        document.write("The length of the name is: " + name.length + "<br>");
+
+      let num= 500;
+      if (num > 0) {
+        document.write(num + " The number is positive.<br>");
+      } else if(num < 0) {
+        document.write(num + " The number is negative.<br>");
+      } else {
+        document.write(num + " The number is zero.<br>");
+      }
+    </script>
+
+    <button onclick="x()">click to test</button>
+  </body>
+</html>
